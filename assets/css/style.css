@@ -1,0 +1,72 @@
+body {
+  /* general styles section */
+  background-color: black;
+  color: white;
+  margin: 0%;
+  font-family: raleway;
+}
+* img {
+  height: auto;
+}
+header {
+  /* this is style for the header */
+  text-align: center;
+}
+main section img{
+  /* this affects just the first section img */
+  width: 100%;
+}
+.info {
+  /* styles for the info class and its img */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    }
+.info p {
+  /* styles for the paragraphs in this class */
+  width: 450px;
+  text-align: justify;
+}
+.info img {
+  /* styles for the isolated img for this part */
+  width: 400px;
+}
+.caracteristicas {
+  background-color: #1E1A13;
+  text-align: center;
+  color: #FFFFFF;
+}
+/* the styles for this section are separated by title
+and icons and texts */
+.caracteristicas h2 {
+  font-size: 40px;
+  line-height: 75px;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 25px;
+}
+.gallery {
+  /* styles for the gallery */
+  display: flex;
+  justify-content: center;
+  margin-top: 73px;
+  margin-bottom: 73px;
+  gap: 15px;
+}
+.gallery img{
+  width: 316px;
+}
+footer {
+  /* the footer contains a clickeable link */
+  display: flex;
+  justify-content: center;
+  background-color: #1E1A13;
+  line-height: 39px;
+}
